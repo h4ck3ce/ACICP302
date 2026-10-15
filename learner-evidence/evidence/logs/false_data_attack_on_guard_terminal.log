@@ -1,0 +1,20 @@
+2026-10-15 08:26:23,877 INFO Guard listening on 127.0.0.1:5021 — protecting plant at 127.0.0.1:5020
+2026-10-15 08:26:23,878 INFO Server listening.
+2026-10-15 08:26:57,678 WARNING BLOCKED write to reg 0: 110.0C outside safe range 60.0-75.0C; step of 35.8C exceeds max 3.0C; cumulative drift of 35.7C over last 3 accepted writes exceeds 2.0C limit
+2026-10-15 08:26:57,679 WARNING BLOCKED write to reg 1: 55.0 bar outside safe range 30.0-40.0 bar; step of 23.4 bar exceeds max 5.0 bar; cumulative drift of 22.9 bar over last 3 accepted writes exceeds 2.0 bar limit
+2026-10-15 08:26:57,680 WARNING BLOCKED write to reg 2: 200.0 Nm3/h outside safe range 50.0-150.0 Nm3/h; step of 97.3 Nm3/h exceeds max 10.0 Nm3/h; cumulative drift of 96.1 Nm3/h over last 3 accepted writes exceeds 4.0 Nm3/h limit
+2026-10-15 08:26:58,683 WARNING BLOCKED write to reg 0: 110.0C outside safe range 60.0-75.0C; step of 35.8C exceeds max 3.0C; cumulative drift of 35.8C over last 3 accepted writes exceeds 2.0C limit
+2026-10-15 08:26:58,685 WARNING BLOCKED write to reg 1: 55.0 bar outside safe range 30.0-40.0 bar; step of 23.2 bar exceeds max 5.0 bar; cumulative drift of 23.2 bar over last 3 accepted writes exceeds 2.0 bar limit
+2026-10-15 08:26:58,687 WARNING BLOCKED write to reg 2: 200.0 Nm3/h outside safe range 50.0-150.0 Nm3/h; step of 98.3 Nm3/h exceeds max 10.0 Nm3/h; cumulative drift of 96.6 Nm3/h over last 3 accepted writes exceeds 4.0 Nm3/h limit
+2026-10-15 08:26:59,697 WARNING BLOCKED write to reg 0: 110.0C outside safe range 60.0-75.0C; step of 35.7C exceeds max 3.0C; cumulative drift of 35.8C over last 3 accepted writes exceeds 2.0C limit
+2026-10-15 08:26:59,698 WARNING BLOCKED write to reg 1: 55.0 bar outside safe range 30.0-40.0 bar; step of 23.1 bar exceeds max 5.0 bar; cumulative drift of 23.4 bar over last 3 accepted writes exceeds 2.0 bar limit
+2026-10-15 08:26:59,699 WARNING BLOCKED write to reg 2: 200.0 Nm3/h outside safe range 50.0-150.0 Nm3/h; step of 98.6 Nm3/h exceeds max 10.0 Nm3/h; cumulative drift of 97.3 Nm3/h over last 3 accepted writes exceeds 4.0 Nm3/h limit
+2026-10-15 08:27:00,716 WARNING BLOCKED write to reg 0: 110.0C outside safe range 60.0-75.0C; step of 35.5C exceeds max 3.0C; cumulative drift of 35.8C over last 3 accepted writes exceeds 2.0C limit
+2026-10-15 08:27:00,722 WARNING BLOCKED write to reg 1: 55.0 bar outside safe range 30.0-40.0 bar; step of 23.1 bar exceeds max 5.0 bar; cumulative drift of 23.2 bar over last 3 accepted writes exceeds 2.0 bar limit
+2026-10-15 08:27:00,723 WARNING BLOCKED write to reg 2: 200.0 Nm3/h outside safe range 50.0-150.0 Nm3/h; step of 98.2 Nm3/h exceeds max 10.0 Nm3/h; cumulative drift of 98.3 Nm3/h over last 3 accepted writes exceeds 4.0 Nm3/h limit
+2026-10-15 08:27:01,732 WARNING BLOCKED write to reg 0: 110.0C outside safe range 60.0-75.0C; step of 35.3C exceeds max 3.0C; cumulative drift of 35.7C over last 3 accepted writes exceeds 2.0C limit
+2026-10-15 08:27:01,733 WARNING BLOCKED write to reg 1: 55.0 bar outside safe range 30.0-40.0 bar; step of 22.9 bar exceeds max 5.0 bar; cumulative drift of 23.1 bar over last 3 accepted writes exceeds 2.0 bar limit
+2026-10-15 08:27:01,734 WARNING BLOCKED write to reg 2: 200.0 Nm3/h outside safe range 50.0-150.0 Nm3/h; step of 97.5 Nm3/h exceeds max 10.0 Nm3/h; cumulative drift of 98.6 Nm3/h over last 3 accepted writes exceeds 4.0 Nm3/h limit
+2026-10-15 08:27:02,736 WARNING BLOCKED write to reg 0: 110.0C outside safe range 60.0-75.0C; step of 35.5C exceeds max 3.0C; cumulative drift of 35.5C over last 3 accepted writes exceeds 2.0C limit
+2026-10-15 08:27:02,741 WARNING BLOCKED write to reg 1: 55.0 bar outside safe range 30.0-40.0 bar; step of 22.8 bar exceeds max 5.0 bar; cumulative drift of 23.1 bar over last 3 accepted writes exceeds 2.0 bar limit
+2026-10-15 08:27:02,744 WARNING BLOCKED write to reg 2: 200.0 Nm3/h outside safe range 50.0-150.0 Nm3/h; step of 98.5 Nm3/h exceeds max 10.0 Nm3/h; cumulative drift of 98.2 Nm3/h over last 3 accepted writes exceeds 4.0 Nm3/h limit
