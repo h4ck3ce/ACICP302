@@ -7,7 +7,7 @@
 - **Learner:** Isaac Oyero
 - **Registration number:** C11/26/ACIS/17366
 - **Submission date:** October 15, 2026
-- **Learner evidence-repository URL and final commit:** [https://github.com/icdfa/student-ics-lab04-portfolio](https://github.com/icdfa/student-ics-lab04-portfolio) (Commit `7f8a2bc`)
+- **Learner evidence-repository URL and final commit:** [https://github.com/icdfa/student-ics-lab04-portfolio](https://github.com/icdfa/student-ics-lab04-portfolio) (Commit `8a020f4c1b1b6c07848134813e09e957dafba87d`)
 - **Course source URL:** https://github.com/icdfa/ACICP302ICS-Network-Security-and-Attacks/tree/main/
 - **Course source commit used:** `2a66f9bcf253eb3fe31c68ad52794cd535421da8`
 - **Assigned VM/snapshot:** ICDFA-SErver/Baseline-Snapshot
