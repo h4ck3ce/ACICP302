@@ -1,1 +1,1 @@
-# ACICP302
+# ACICP302 - ICS Network Security & Attacks
