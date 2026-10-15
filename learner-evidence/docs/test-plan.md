@@ -7,21 +7,6 @@
 | SV-03 | `/course/ACICP302ICS-Network-Security-and-Attacks/labs/ot-security/student-lab-source/dos_attack.py` | Guarded plant simulation running with normal background polling traffic active on port 5021. | The script executes 200 concurrent read requests using 10 threads against the guarded endpoint. The guard is expected to handle the concurrent load, ensuring legitimate reads pass while testing service resilience and stability. | Wireshark capture showing concurrent TCP read segments. | All 10 worker threads complete their assigned 200 read requests. | Verify service stability; restart `guard.py` if exhaustion or connection drops occurred. | Handled (Operational stability maintained under high concurrency). |
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Comparison Summary
 
 | Scenario | Baseline state | Observed direct/guarded state | Log/packet/dashboard reference | Finding/limitation | Recovery Verified? |
@@ -29,18 +14,6 @@
 | Pressure value outside the simulated range requested. | Guarded plant simulation active, normal baseline telemetry active on guarded path. | Script attempted to write an out-of-range pressure value. Guard intercepted, and dropped the write entirely. The plant state remained unmodified. | Terminal rejection error log and Wireshark capture of blocked write command packet. | Finding: Absolute range checks successfully block hazardous setpoint modifications.<br><br>Limitation: Relies entirely on pre-defined static safe boundaries. | Yes (no plant recovery needed as state was never corrupted). |
 | Out-of-range process values sent. | Guarded plant simulation active, normal baseline telemetry active on guarded path. | Script sent batches of invalid, out-of-range process values. Guard evaluated each batch, triggered absolute/drift rejections, and prevented dashboard corruption. | Terminal rejection error log and guarded dashboard display showing stable parameters. | Finding: Multi-batch malicious payloads are effectively neutralized by proxy logic.<br><br>Limitation: High-frequency attack scripts can generate excessive log output. | Yes (plant backend required no intervention). |
 | Demonstration of 200 read requests using 10 threads. | Guarded plant simulation active, normal baseline telemetry active on guarded path. | Script executed 200 concurrent read requests using 10 threads. Concurrent load was processed while maintaining valid read passthrough. | Concurrent TCP read packet trace in Wireshark. | Finding: Proxy handles standard multi-threaded polling loads without crashing.<br><br>Limitation: Extreme unthrottled thread counts could induce socket exhaustion or latency. | Yes (service remained stable, no manual restart required). |
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Completion Confirmation
